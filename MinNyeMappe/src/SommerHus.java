@@ -5,4 +5,9 @@ public class SommerHus extends Hus{
         super(adresse,nr,kvaGrund,husNr,kvadratMeter);
     }
 
+    @Override
+    public int ejendomsVærdi(){
+        return super.ejendomsVærdi() - 24;
+    }
+
 }
