@@ -22,6 +22,7 @@ public class App {
         SynsMand synsMand = new SynsMand("Børge","Bjegsenvej",
                 new java.util.Date(2000,Calendar.DECEMBER,24),200,synsListe);
 
+
         listeMekaniker.add(mekaniker1);
         listeMekaniker.add(mekaniker2);
         listeMekaniker.add(værkfører);
