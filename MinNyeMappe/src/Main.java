@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Hus hus1 = new Hus("VimmersVej 11", 2,10,"HusNR2",100);
-        SommerHus sommerHus1 = new SommerHus("HammersVej",1,2,"Hey",200,true);
+        SommerHus sommerHus1 = new SommerHus("HammersVej",1,2,"ninthy40'er",200,true);
 
         System.out.println(hus1.getHusNr());
 
@@ -16,7 +16,7 @@ public class Main {
 
         for(Hus h : listHus){
             if(h instanceof SommerHus){
-                System.out.println("Er et sommerhus");
+                System.out.println(h.getHusNr() + " Er et sommerhus");
             }
         }
 
