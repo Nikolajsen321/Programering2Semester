@@ -1,5 +1,10 @@
 import java.util.Date;
 
+/*
+Fokus på kontrolstruktur sekvenser når Værkfører objektet skal laves så sættes parameterne i constructoren
+i person først så mekaniker og tilsdist værkfører
+ */
+
 public class Værkfører extends Mekaniker{
     private Date værkFørerUdNAr;
     private int tillæg;

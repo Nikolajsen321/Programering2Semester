@@ -21,6 +21,5 @@ public class SynsMand extends Mekaniker{
 
     public void setUgeLigListe(String synsTest){
         ugeLigListe.add(synsTest);
-
     }
 }

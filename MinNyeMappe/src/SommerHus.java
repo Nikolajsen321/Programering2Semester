@@ -1,8 +1,9 @@
 public class SommerHus extends Hus{
-    private String gamlePersonNavn;
+    private boolean beboet;
 
-    public SommerHus(String adresse, int nr, int kvaGrund, String husNr,int kvadratMeter,String gamlePersonNavn){
+    public SommerHus(String adresse, int nr, int kvaGrund, String husNr,int kvadratMeter,boolean beboet){
         super(adresse,nr,kvaGrund,husNr,kvadratMeter);
+        this.beboet = beboet;
     }
 
     @Override
