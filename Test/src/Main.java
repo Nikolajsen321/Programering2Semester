@@ -11,6 +11,7 @@ public class Main {
 
     public static void metodeTest(){
         System.out.println("Dette er en metodeTest til branch");
+        System.out.println("En ny metode test");
 
     }
 
