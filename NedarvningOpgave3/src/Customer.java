@@ -5,6 +5,7 @@ public class Customer {
     private String name;
     private LocalDate birthDay;
     private ArrayList<Order> listOrder = new ArrayList<>();
+    private Discount discount;
 
 
 
@@ -49,5 +50,8 @@ public class Customer {
             pris += listOrder.get(i).getOrderPris();
         }
         return pris;
+    }
+    public double totalBuyWithDiscount(){
+      return discount.getDiscountPris(totalBuyWithDiscount());
     }
 }

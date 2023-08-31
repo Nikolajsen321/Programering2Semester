@@ -1,11 +1,11 @@
 import java.util.Date;
 
-public class Værkfører {
+public class Værkfører extends Ansat {
     private Date værkFørerUdNAr;
     private int tillæg;
 
-    public Værkfører(String navn, String adresse,Date svendePrøveÅr,int timeLøn,Date værkFørerUdNAr,int tillæg){
-        super(navn,adresse,svendePrøveÅr,timeLøn);
+    public Værkfører(String navn, String adresse,double timeLon,Date svendePrøveÅr,Date værkFørerUdNAr,int tillæg){
+        super(navn,adresse,timeLon);
         this.værkFørerUdNAr = værkFørerUdNAr;
         this.tillæg = tillæg;
     }
@@ -19,8 +19,8 @@ public class Værkfører {
         return tillæg;
     }
     @Override
-    public int beregnUgeLon(){
-        int ugeLon = super.beregnUgeLon() + (tillæg * 37);
+    public double beregnUgeLon(){
+        double ugeLon = super.beregnUgeLon() + (tillæg * 37);
         return ugeLon;
     }
 }
