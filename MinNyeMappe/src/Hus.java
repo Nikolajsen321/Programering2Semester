@@ -20,4 +20,9 @@ public class Hus extends Beboelse {
     public int getKvadratMeter() {
         return kvadratMeter;
     }
+
+    @Override
+    public int ejVaerdi() {
+        return 0;
+    }
 }

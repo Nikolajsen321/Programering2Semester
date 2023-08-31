@@ -20,4 +20,7 @@ public abstract class  Beboelse {
     public void setAdresse(String adresse){
         this.adresse = adresse;
     }
+
+    public abstract int ejVaerdi();
+
 }

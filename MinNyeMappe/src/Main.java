@@ -20,6 +20,9 @@ public class Main {
             }
         }
 
+        Beboelse [] beboelsesr = new Beboelse[10];
+        beboelsesr[0] = new Hus("Vandt",10,1000,"20",1000);
+
     }
 
 }
