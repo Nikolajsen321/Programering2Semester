@@ -39,8 +39,15 @@ public class Customer {
         }
     }
     public void removeOrder(Order order){
-        if(listOrder.contains(order)){
+        if(listOrder.contains(order)) {
             listOrder.remove(order);
         }
+    }
+    public double totalBuys(){
+        double pris = 0;
+        for(int i = 0; i < listOrder.size(); i++){
+            pris += listOrder.get(i).getOrderPris();
+        }
+        return pris;
     }
 }
