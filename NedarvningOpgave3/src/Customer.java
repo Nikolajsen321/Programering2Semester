@@ -9,9 +9,10 @@ public class Customer {
 
 
 
-    public Customer(String name,LocalDate birthDay){
+    public Customer(String name,LocalDate birthDay,Discount discount){
         this.name = name;
         this.birthDay = birthDay;
+        this.discount = discount;
     }
 
     public String getName() {
@@ -52,6 +53,6 @@ public class Customer {
         return pris;
     }
     public double totalBuyWithDiscount(){
-      return discount.getDiscountPris(totalBuyWithDiscount());
+      discount.getDiscountPris(totalBuys());
     }
 }

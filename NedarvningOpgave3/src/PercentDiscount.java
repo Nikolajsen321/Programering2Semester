@@ -7,8 +7,8 @@ public class PercentDiscount extends Discount{
 
 
     @Override
-    public double getDiscountPris(double pris) {
-        return getDiscountPris(pris) * (100-discountPercent);
+    public void getDiscountPris(double pris) {
+        double sum = pris * (100 - discountPercent);
     }
 
 

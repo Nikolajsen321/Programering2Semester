@@ -8,11 +8,10 @@ public class FixedDiscount extends Discount{
     }
 
     @Override
-    public double getDiscountPris(double pris){
+    public void getDiscountPris(double pris){
         double sumPDiscountPris = 0;
         if(pris > discountLimit){
-            sumPDiscountPris = pris -fixedDiscount;
+            sumPDiscountPris = pris - fixedDiscount;
         }
-        return sumPDiscountPris;
     }
 }
