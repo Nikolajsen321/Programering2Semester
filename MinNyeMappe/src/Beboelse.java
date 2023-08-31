@@ -1,4 +1,4 @@
-public class  Beboelse {
+public abstract class  Beboelse {
     private String adresse;
     private int nr;
     private int kvaGrund;
