@@ -6,11 +6,12 @@ public abstract class Ansat extends Person {
         this.timeLon = timeLon;
     }
 
+    /*
+    det nedeunder kaldes for et interface og bruges i java til at opnå abstraktion
+     */
     public abstract double beregnUgeLon();
 
-
     public double getTimeLon(){
-        return timeLon;
+       return this.timeLon;
     }
-
 }

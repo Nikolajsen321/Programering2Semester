@@ -4,7 +4,7 @@ public class Værkfører extends Ansat {
     private Date værkFørerUdNAr;
     private int tillæg;
 
-    public Værkfører(String navn, String adresse,double timeLon,Date svendePrøveÅr,Date værkFørerUdNAr,int tillæg){
+    public Værkfører(String navn, String adresse,double timeLon,Date værkFørerUdNAr,int tillæg){
         super(navn,adresse,timeLon);
         this.værkFørerUdNAr = værkFørerUdNAr;
         this.tillæg = tillæg;
@@ -20,7 +20,7 @@ public class Værkfører extends Ansat {
     }
     @Override
     public double beregnUgeLon(){
-        double ugeLon = super.beregnUgeLon() + (tillæg * 37);
+        double ugeLon =  37*(super.getTimeLon() + tillæg);
         return ugeLon;
     }
 }

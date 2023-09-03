@@ -1,6 +1,6 @@
 public class Discount {
 
-    public void getDiscountPris(double pris){
-        pris = 0;
+    public double getDiscountPris(double pris){
+       return pris = 0;
     }
 }

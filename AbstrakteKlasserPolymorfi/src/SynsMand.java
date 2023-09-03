@@ -1,17 +1,25 @@
 import java.util.ArrayList;
 import java.util.Date;
 
-public class SynsMand {
+public class SynsMand extends Mekaniker {
+    private boolean ekstraBetaling;
     private ArrayList<String> ugeLigListe = new ArrayList<>();
 
-    public SynsMand(String navn, String adresse, Date svendePrøveÅr, int timeLøn, ArrayList<String> ugeLigListe){
-        super(navn,adresse,svendePrøveÅr,timeLøn);
+    public SynsMand(String navn, String adresse,double timeLøn,Date svendePrøveÅr,boolean ekstraBetaling, ArrayList<String> ugeLigListe){
+        super(navn,adresse,timeLøn,svendePrøveÅr);
         this.ugeLigListe = ugeLigListe;
+        this.ekstraBetaling = ekstraBetaling;
     }
 
+
     @Override
-    public int beregnUgeLon(){
-        int ugeLon = super.beregnUgeLon() + (29 * ugeLigListe.size());
+    public double beregnUgeLon(){
+        double ugeLon = 0;
+        if(ekstraBetaling) {
+             ugeLon = 37 * (super.getTimeLon() + 29 * ugeLigListe.size());
+        }else {
+             ugeLon = super.getTimeLon() * 37;
+        }
         return ugeLon;
     }
 

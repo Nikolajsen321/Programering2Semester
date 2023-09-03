@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstrakteKlasser/AbstrakteKlasser.iml" filepath="$PROJECT_DIR$/AbstrakteKlasser/AbstrakteKlasser.iml" />
       <module fileurl="file://$PROJECT_DIR$/AbstrakteKlasserPolymorfi/AbstrakteKlasserPolymorfi.iml" filepath="$PROJECT_DIR$/AbstrakteKlasserPolymorfi/AbstrakteKlasserPolymorfi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GeometriskFigur/GeometriskFigur.iml" filepath="$PROJECT_DIR$/GeometriskFigur/GeometriskFigur.iml" />
       <module fileurl="file://$PROJECT_DIR$/MinNyeMappe/MinNyeMappe.iml" filepath="$PROJECT_DIR$/MinNyeMappe/MinNyeMappe.iml" />
       <module fileurl="file://$PROJECT_DIR$/Nedarvning/Nedarvning.iml" filepath="$PROJECT_DIR$/Nedarvning/Nedarvning.iml" />
       <module fileurl="file://$PROJECT_DIR$/NedarvningOpgave3/NedarvningOpgave3.iml" filepath="$PROJECT_DIR$/NedarvningOpgave3/NedarvningOpgave3.iml" />

@@ -52,7 +52,12 @@ public class Customer {
         }
         return pris;
     }
+
+
+
+
     public double totalBuyWithDiscount(){
-      discount.getDiscountPris(totalBuys());
+        return discount.getDiscountPris(totalBuys());
     }
+
 }

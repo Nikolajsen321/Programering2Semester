@@ -28,11 +28,12 @@ public class Main {
         OrderLine orderLine4 = order2.createOrderLine(13142424,134,produkt4);
 
 
+        System.out.println(customer1.totalBuys());
         System.out.println( customer1.totalBuyWithDiscount());
 
 
 
-        System.out.println(customer1.totalBuys());
+
 
 
 
