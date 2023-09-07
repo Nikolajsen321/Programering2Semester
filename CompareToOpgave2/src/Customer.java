@@ -38,7 +38,7 @@ public class Customer implements Comparable<Customer>{
         int comp = this.efterNavn.compareTo(coe.getEfterNavn());
         if(comp == 0) {
             comp = this.fornavn.compareTo(coe.getFornavn());
-        }else if(comp ==0){
+        }if(comp ==0){
                 comp = this.alder - coe.getAlder();
             }
         return comp;
