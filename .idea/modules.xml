@@ -4,12 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstrakteKlasser/AbstrakteKlasser.iml" filepath="$PROJECT_DIR$/AbstrakteKlasser/AbstrakteKlasser.iml" />
       <module fileurl="file://$PROJECT_DIR$/AbstrakteKlasserPolymorfi/AbstrakteKlasserPolymorfi.iml" filepath="$PROJECT_DIR$/AbstrakteKlasserPolymorfi/AbstrakteKlasserPolymorfi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CompareToOpgave2/CompareToOpgave2.iml" filepath="$PROJECT_DIR$/CompareToOpgave2/CompareToOpgave2.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeometriskFigur/GeometriskFigur.iml" filepath="$PROJECT_DIR$/GeometriskFigur/GeometriskFigur.iml" />
       <module fileurl="file://$PROJECT_DIR$/MinNyeMappe/MinNyeMappe.iml" filepath="$PROJECT_DIR$/MinNyeMappe/MinNyeMappe.iml" />
       <module fileurl="file://$PROJECT_DIR$/Nedarvning/Nedarvning.iml" filepath="$PROJECT_DIR$/Nedarvning/Nedarvning.iml" />
       <module fileurl="file://$PROJECT_DIR$/NedarvningOpgave3/NedarvningOpgave3.iml" filepath="$PROJECT_DIR$/NedarvningOpgave3/NedarvningOpgave3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Opgave3Interfaces/Opgave3Interfaces.iml" filepath="$PROJECT_DIR$/Opgave3Interfaces/Opgave3Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programering 2 nyt.iml" filepath="$PROJECT_DIR$/Programering 2 nyt.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Varer/Varer.iml" filepath="$PROJECT_DIR$/Varer/Varer.iml" />
     </modules>
   </component>
 </project>

@@ -1,20 +1,23 @@
 public abstract class GeometriskObjekt {
-    private double length;
-    private double height;
 
-    protected GeometriskObjekt(double length,double height){
-        this.length = length;
-        this.height = height;
+    private double x;
+    private double y;
+
+
+    protected GeometriskObjekt(double x, double y){
+        this.x = x;
+        this.y = y;
     }
 
 
     public abstract double getAreal();
 
-    public double getLength() {
-        return length;
+
+    public double getX() {
+        return x;
     }
 
-    public double getHeight() {
-        return height;
+    public double getY() {
+        return y;
     }
 }

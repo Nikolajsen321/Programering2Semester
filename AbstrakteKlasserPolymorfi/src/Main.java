@@ -14,7 +14,7 @@ public class Main {
          her er det man kalder for en erklærede type af reference variable
          det er den type som bestemmer hvilken metode beregnUgeLon() der matcher ved compile time
          compiler finder altså en matching metode iforhold til parameter type, antallet af parameter,
-         og hvilken order parameter kommer, en emtode kan altså implementeres i flere klasser som her
+         og hvilken order parameter kommer, en metode kan altså implementeres i flere klasser som her
          langs nedarvningskæden  JVM kan dynamisk binde implementation af metode ved runtime bestemt af
          actual type fx under Mekaniker
          */
@@ -48,6 +48,7 @@ public class Main {
         samletUgeLøn(list);
 
 
+
     }
 
     private static void samletUgeLøn(ArrayList<Ansat> list) {
@@ -56,6 +57,8 @@ public class Main {
             samletLon += a.beregnUgeLon();
         }
         System.out.println("Samlet lon er " + samletLon);
+
     }
+
 
 }
