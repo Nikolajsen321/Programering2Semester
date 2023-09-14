@@ -10,7 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/Nedarvning/Nedarvning.iml" filepath="$PROJECT_DIR$/Nedarvning/Nedarvning.iml" />
       <module fileurl="file://$PROJECT_DIR$/NedarvningOpgave3/NedarvningOpgave3.iml" filepath="$PROJECT_DIR$/NedarvningOpgave3/NedarvningOpgave3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Opgave3Interfaces/Opgave3Interfaces.iml" filepath="$PROJECT_DIR$/Opgave3Interfaces/Opgave3Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Opgave4Compareable/Opgave4Compareable.iml" filepath="$PROJECT_DIR$/Opgave4Compareable/Opgave4Compareable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpgaveBilUd/OpgaveBilUd.iml" filepath="$PROJECT_DIR$/OpgaveBilUd/OpgaveBilUd.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programering 2 nyt.iml" filepath="$PROJECT_DIR$/Programering 2 nyt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RationalKlasse/RationalKlasse.iml" filepath="$PROJECT_DIR$/RationalKlasse/RationalKlasse.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Varer/Varer.iml" filepath="$PROJECT_DIR$/Varer/Varer.iml" />
     </modules>

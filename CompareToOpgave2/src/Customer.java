@@ -33,16 +33,19 @@ public class Customer implements Comparable<Customer>{
         this.alder = alder;
     }
 
+
+
     @Override
     public int compareTo(Customer coe) {
         int comp = this.efterNavn.compareTo(coe.getEfterNavn());
         if(comp == 0) {
             comp = this.fornavn.compareTo(coe.getFornavn());
-        }if(comp ==0){
+        }if(comp == 0){
                 comp = this.alder - coe.getAlder();
             }
         return comp;
         }
+
 
 
 

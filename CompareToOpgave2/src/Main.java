@@ -1,4 +1,7 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,24 +16,28 @@ public class Main {
         listCustomer[1] = c2;
         listCustomer[2] = c3;
 
+//        Arrays.sort(listCustomer);
+
         System.out.println(lastCustomer(listCustomer).toString());
         System.out.println();
 
         System.out.println(Arrays.toString( afterCustomer(listCustomer,c3)));
 
+//        List<Customer> list = Arrays.asList(listCustomer);
+//        Collections.sort(list);
 
     }
 
     private static Customer[] afterCustomer(Customer[] listCustomer, Customer customer) {
         Customer[] customers = null;
         Customer temp = customer;
-        int størreEnd = 0;
+        int størreEndAntal = 0;
         for(int i = 0; i < listCustomer.length; i++){
             if(listCustomer[i].compareTo(customer) > 0){
-                størreEnd++;
+                størreEndAntal++;
             }
         }
-        customers = new Customer[størreEnd];
+        customers = new Customer[størreEndAntal];
         for(int i = 0; i < customers.length; i++){
             if(listCustomer[i].compareTo(customer) > 0){
                 customers[i] = listCustomer[i];
@@ -44,7 +51,7 @@ public class Main {
     private static Customer lastCustomer(Customer[] listCustomer) {
         Customer customer = listCustomer[0];
         for(Customer c: listCustomer){
-            if(c.compareTo(customer)> 0){
+            if(c.compareTo(customer) > 0){
                 customer = c;
             }
         }
