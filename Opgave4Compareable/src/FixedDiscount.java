@@ -1,9 +1,9 @@
 public class FixedDiscount implements Discount{
-    private int fixedDiscount;
-    private int discountLimit;
+    private double fixedDiscount;
+    private double discountLimit;
 
 
-    public FixedDiscount(int fixedDiscount,int discountLimit){
+    public FixedDiscount(double fixedDiscount,double discountLimit){
         this.fixedDiscount = fixedDiscount;
         this.discountLimit = discountLimit;
     }

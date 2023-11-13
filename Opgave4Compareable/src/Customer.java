@@ -54,10 +54,14 @@ public class Customer {
     }
 
 
-
-
     public double totalBuyWithDiscount(){
         return discount.getDiscountPris(totalBuys());
     }
 
+
+    public void setDiscount(Discount discount){
+        this.discount = discount;
+    }
+
 }
+

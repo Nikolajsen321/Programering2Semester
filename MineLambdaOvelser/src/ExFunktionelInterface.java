@@ -34,6 +34,14 @@ public class ExFunktionelInterface {
                 return str.length() > 5;
             };
 
+//        FilterTwo fmT = (String str1, String str2) ->{
+//            return str1.length() > 2 && str2.length() > 2;
+//        };
+//
+//        boolean acceptedTwo = fmT.accept("Hans","Bob");
+//        System.out.println(acceptedTwo);
+
+
             boolean accepted = f5.accept("Lambda Funktion");
         System.out.println(accepted);
 
@@ -50,9 +58,16 @@ public class ExFunktionelInterface {
 
          */
 
-        Filter fm = (String str) ->{
-          return str.startsWith("m");
+        Filter fm = (String str1) ->{
+          return str1.startsWith("m") && str1.length() > 2 ;
         };
+
+        Filter fm2 = (String str1) ->{
+            return str1.startsWith("m") && str1.length() > 2 ;
+        };
+
+
+
 
         //Tæller hvor mange starter med et lille m
         System.out.println(countAccepted(list,fm));

@@ -4,6 +4,12 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
+        Discount discount1 = new FixedDiscount(10000,200);
+        Discount discount2 = new PercentDiscount(10);
+        Discount discount3 = new AgeDiscount(LocalDate.of(2000,10,11));
+
+
+
         Produkt produkt1 = new Produkt(10,"Pepsi Max dåser",1000000);
         Produkt produkt2 = new Produkt(-10,"Dårlige coca cola",-100000);
         Produkt produkt3 = new Produkt(10,"Ritter Sport ",10);
@@ -30,6 +36,15 @@ public class Main {
 
         System.out.println(customer1.totalBuys());
         System.out.println( customer1.totalBuyWithDiscount());
+        customer1.setDiscount(discount1);
+
+        System.out.println();
+        System.out.println(customer1.totalBuys());
+        System.out.println(customer1.totalBuyWithDiscount());
+        customer1.setDiscount(discount2);
+        System.out.println(customer1.totalBuyWithDiscount());
+        customer1.setDiscount(discount3);
+        System.out.println(customer1.totalBuyWithDiscount());
 
 
 

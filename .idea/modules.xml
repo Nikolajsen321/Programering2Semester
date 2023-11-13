@@ -4,18 +4,36 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstrakteKlasser/AbstrakteKlasser.iml" filepath="$PROJECT_DIR$/AbstrakteKlasser/AbstrakteKlasser.iml" />
       <module fileurl="file://$PROJECT_DIR$/AbstrakteKlasserPolymorfi/AbstrakteKlasserPolymorfi.iml" filepath="$PROJECT_DIR$/AbstrakteKlasserPolymorfi/AbstrakteKlasserPolymorfi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArraysIFlereDimensioner/ArraysIFlereDimensioner.iml" filepath="$PROJECT_DIR$/ArraysIFlereDimensioner/ArraysIFlereDimensioner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bilforsikrning/Bilforsikrning.iml" filepath="$PROJECT_DIR$/Bilforsikrning/Bilforsikrning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionOpgave3/CollectionOpgave3.iml" filepath="$PROJECT_DIR$/CollectionOpgave3/CollectionOpgave3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionOpgave4/CollectionOpgave4.iml" filepath="$PROJECT_DIR$/CollectionOpgave4/CollectionOpgave4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionsOpgaverFramework/CollectionsOpgaverFramework.iml" filepath="$PROJECT_DIR$/CollectionsOpgaverFramework/CollectionsOpgaverFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/CompareToOpgave2/CompareToOpgave2.iml" filepath="$PROJECT_DIR$/CompareToOpgave2/CompareToOpgave2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStruktur/DataStruktur.iml" filepath="$PROJECT_DIR$/DataStruktur/DataStruktur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GenereicOpgaver/GenereicOpgaver.iml" filepath="$PROJECT_DIR$/GenereicOpgaver/GenereicOpgaver.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeometriskFigur/GeometriskFigur.iml" filepath="$PROJECT_DIR$/GeometriskFigur/GeometriskFigur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LambdaOpgaver/LambdaOpgaver.iml" filepath="$PROJECT_DIR$/LambdaOpgaver/LambdaOpgaver.iml" />
       <module fileurl="file://$PROJECT_DIR$/MinNyeMappe/MinNyeMappe.iml" filepath="$PROJECT_DIR$/MinNyeMappe/MinNyeMappe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MineLambdaOvelser/MineLambdaOvelser.iml" filepath="$PROJECT_DIR$/MineLambdaOvelser/MineLambdaOvelser.iml" />
       <module fileurl="file://$PROJECT_DIR$/Nedarvning/Nedarvning.iml" filepath="$PROJECT_DIR$/Nedarvning/Nedarvning.iml" />
       <module fileurl="file://$PROJECT_DIR$/NedarvningOpgave3/NedarvningOpgave3.iml" filepath="$PROJECT_DIR$/NedarvningOpgave3/NedarvningOpgave3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Opgav2Test/Opgav2Test.iml" filepath="$PROJECT_DIR$/Opgav2Test/Opgav2Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Opgave3Interfaces/Opgave3Interfaces.iml" filepath="$PROJECT_DIR$/Opgave3Interfaces/Opgave3Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Opgave4Compareable/Opgave4Compareable.iml" filepath="$PROJECT_DIR$/Opgave4Compareable/Opgave4Compareable.iml" />
       <module fileurl="file://$PROJECT_DIR$/OpgaveBilUd/OpgaveBilUd.iml" filepath="$PROJECT_DIR$/OpgaveBilUd/OpgaveBilUd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpgaverRekursionMergeSort/OpgaverRekursionMergeSort.iml" filepath="$PROJECT_DIR$/OpgaverRekursionMergeSort/OpgaverRekursionMergeSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programering 2 nyt.iml" filepath="$PROJECT_DIR$/Programering 2 nyt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjektTEST/ProjektTEST.iml" filepath="$PROJECT_DIR$/ProjektTEST/ProjektTEST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueOpgaver/QueOpgaver.iml" filepath="$PROJECT_DIR$/QueOpgaver/QueOpgaver.iml" />
       <module fileurl="file://$PROJECT_DIR$/RationalKlasse/RationalKlasse.iml" filepath="$PROJECT_DIR$/RationalKlasse/RationalKlasse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stak/Stak.iml" filepath="$PROJECT_DIR$/Stak/Stak.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestProg/TestProg.iml" filepath="$PROJECT_DIR$/TestProg/TestProg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestProjekt/TestProjekt.iml" filepath="$PROJECT_DIR$/TestProjekt/TestProjekt.iml" />
       <module fileurl="file://$PROJECT_DIR$/Varer/Varer.iml" filepath="$PROJECT_DIR$/Varer/Varer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rekursionOpgave2/rekursionOpgave2.iml" filepath="$PROJECT_DIR$/rekursionOpgave2/rekursionOpgave2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rekursionOpgaver/rekursionOpgaver.iml" filepath="$PROJECT_DIR$/rekursionOpgaver/rekursionOpgaver.iml" />
     </modules>
   </component>
 </project>
