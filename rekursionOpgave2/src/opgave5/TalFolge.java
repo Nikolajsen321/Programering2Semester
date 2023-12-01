@@ -44,20 +44,20 @@ public class TalFolge {
     public static int talFolgeMetode(int n){
         int result = 0;
         if(n == 0){
-            result = 2;
+            result += 2;
         }
         else if (n ==1){
-            result = 1;
+            result += 1;
         }
         else if(n==2){
-            result = 5;
+            result += 5;
         }
         else{
             if(n % 2 == 0){
-                result = 2 * talFolgeMetode(n -3) - talFolgeMetode(n-1);
+                result += 2 * talFolgeMetode(n -3) - talFolgeMetode(n-1);
             }else
             {
-                result = talFolgeMetode(n-1) + talFolgeMetode(n-2)+ 3*talFolgeMetode(n-3);
+                result += talFolgeMetode(n-1) + talFolgeMetode(n-2)+ 3*talFolgeMetode(n-3);
             }
 
         }

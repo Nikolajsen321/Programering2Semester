@@ -11,11 +11,19 @@ public class FletteSorteringHul {
 
 	// den rekursive metode der implementere del-loes og kombiner skabelonen
 	private void mergesort(ArrayList<Integer> list, int l, int h) {
-		if (l < h) {
+		if (l < h) { // bliver ved til l = h altså der kun er en tilbage og så derefter
+			// går den jo videre til næste side til sidst merge
 			int m = (l + h) / 2;
-			mergesort(list, l, m);
-			mergesort(list, m + 1, h);
+			mergesort(list, l, m); // Opdeler fra l <= midten
+			mergesort(list, m + 1, h); //Opdeler fra midten +1 <= h
 			merge(list, l, m, h);
+			/*
+			Når man har få opdelt til man fx når en list med hvor der kun skal være 1 tal tilbage
+			så begynder den at forsætte fordi betingelsen l < h ikke vil gælde længere
+			det vil resultere i alle rekursion begynder "retunere altså kører færdig i dette tilfælde"
+			og så stopper
+
+			 */
 		}
 	}
 

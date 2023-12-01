@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/CollectionsOpgaverFramework/CollectionsOpgaverFramework.iml" filepath="$PROJECT_DIR$/CollectionsOpgaverFramework/CollectionsOpgaverFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/CompareToOpgave2/CompareToOpgave2.iml" filepath="$PROJECT_DIR$/CompareToOpgave2/CompareToOpgave2.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStruktur/DataStruktur.iml" filepath="$PROJECT_DIR$/DataStruktur/DataStruktur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterLadeling/DesignPatterLadeling.iml" filepath="$PROJECT_DIR$/DesignPatterLadeling/DesignPatterLadeling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternsOpgaver/DesignPatternsOpgaver.iml" filepath="$PROJECT_DIR$/DesignPatternsOpgaver/DesignPatternsOpgaver.iml" />
       <module fileurl="file://$PROJECT_DIR$/GenereicOpgaver/GenereicOpgaver.iml" filepath="$PROJECT_DIR$/GenereicOpgaver/GenereicOpgaver.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeometriskFigur/GeometriskFigur.iml" filepath="$PROJECT_DIR$/GeometriskFigur/GeometriskFigur.iml" />
       <module fileurl="file://$PROJECT_DIR$/LambdaOpgaver/LambdaOpgaver.iml" filepath="$PROJECT_DIR$/LambdaOpgaver/LambdaOpgaver.iml" />
@@ -25,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/OpgaverRekursionMergeSort/OpgaverRekursionMergeSort.iml" filepath="$PROJECT_DIR$/OpgaverRekursionMergeSort/OpgaverRekursionMergeSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programering 2 nyt.iml" filepath="$PROJECT_DIR$/Programering 2 nyt.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProjektTEST/ProjektTEST.iml" filepath="$PROJECT_DIR$/ProjektTEST/ProjektTEST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjektWhisky/ProjektWhisky.iml" filepath="$PROJECT_DIR$/ProjektWhisky/ProjektWhisky.iml" />
       <module fileurl="file://$PROJECT_DIR$/QueOpgaver/QueOpgaver.iml" filepath="$PROJECT_DIR$/QueOpgaver/QueOpgaver.iml" />
       <module fileurl="file://$PROJECT_DIR$/RationalKlasse/RationalKlasse.iml" filepath="$PROJECT_DIR$/RationalKlasse/RationalKlasse.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stak/Stak.iml" filepath="$PROJECT_DIR$/Stak/Stak.iml" />

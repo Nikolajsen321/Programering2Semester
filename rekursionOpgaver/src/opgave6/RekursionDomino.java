@@ -10,7 +10,7 @@ public class RekursionDomino {
 
         System.out.println("Antal måder man kan fylde brættet for  " + n + " er " + dominiBrikker(n));
 
-        System.out.println( (n-2) + (n-1));
+
     }
 
     private static int dominiBrikker(int n) {

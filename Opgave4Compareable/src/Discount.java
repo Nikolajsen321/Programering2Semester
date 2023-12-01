@@ -12,5 +12,8 @@ public interface Discount {
     interfaces deles i alle instanser
      */
 
+
+
+
     public  double getDiscountPris(double pris);  // laver et interface
 }
