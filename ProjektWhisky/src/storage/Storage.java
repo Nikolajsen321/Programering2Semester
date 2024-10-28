@@ -5,22 +5,22 @@ import applikation.model.*;
 import java.util.ArrayList;
 
 public class Storage {
-    private static Storage storage;
+
+
     private ArrayList<Batch> listBatch;
     private ArrayList<Destillat> listDestillat;
     private ArrayList<Fad> listFad;
     private ArrayList<Medarbejder> listMedarbejders;
     private ArrayList<Påfyldning> listPåfyldning;
+    private static Storage storage;
 
-    public Storage(){
+    protected Storage(){
         listBatch = new ArrayList<>();
         listDestillat = new ArrayList<>();
         listFad = new ArrayList<>();
         listMedarbejders = new ArrayList<>();
         listPåfyldning = new ArrayList<>();
     }
-
-
 
     public static Storage getStorage(){
         if(storage == null){

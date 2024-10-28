@@ -157,7 +157,7 @@ public class PersonCollection implements Iterable<Person> {
     @Override
     public Iterator<Person> iterator() {
 
-        return new PersonIterator(persons,changeVariable);
+        return new PersonIterator(changeVariable);
     }
 
     @Override
@@ -184,7 +184,7 @@ public class PersonCollection implements Iterable<Person> {
 
 
 
-        public PersonIterator(Person[] person, int changeIteratorVar) {
+        public PersonIterator( int changeIteratorVar) {
             this.person = persons;
             this.changeIteratorVar = changeIteratorVar;
         }

@@ -9,7 +9,6 @@ public class Påfyldning {
         this.antalLitter = antalLitter;
     }
 
-
     public Destillat getDestillat() {
         return destillat;
     }

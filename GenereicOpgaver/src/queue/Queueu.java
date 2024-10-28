@@ -6,7 +6,8 @@ import java.util.NoSuchElementException;
 
 public class Queueu<E> {
 
-private Object[] elements;
+//private Object[] elements;
+private E[] elements;
 private int currentSize;
 private int head;
 private int tail;
@@ -17,7 +18,8 @@ private int tail;
      */
 
     public Queueu(int size) {
-        elements = new Object[size];
+//        elements = new Object[size];
+        elements = (E[]) new Object[size];
         currentSize = 0;
         head = 0;
         tail = 0;
@@ -46,7 +48,8 @@ private int tail;
         {
             throw new NoSuchElementException();
         }
-        Object removed = elements[head];
+//        Object removed = elements[head];
+        E removed =elements[head];
         head = (head + 1) % elements.length;
         currentSize--;
         return (E) removed;
@@ -79,7 +82,8 @@ private int tail;
     {
         if (currentSize == elements.length)
         {
-            Object[] newElements = new Snack[2 * elements.length];
+//            Object[] newElements = new Snack[2 * elements.length];
+            E[] newElements = (E[]) new Snack[2 * elements.length];
             for (int i = 0; i < elements.length; i++)
             {
                 newElements[i] =  elements[(head + i) % elements.length];

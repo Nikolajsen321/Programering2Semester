@@ -9,7 +9,6 @@ public class App {
 
         PersonCollection personCollection = new PersonCollection();
 
-
         Person person1 = new Person("Hans");
         Person person2 = new Person("Mikkel");
         Person person3 = new Person("Jens");
@@ -23,7 +22,6 @@ public class App {
 
 
       Iterator<Person> iterator =  personCollection.iterator();
-
         System.out.println(iterator.next());
         System.out.println(iterator.next());
         personCollection.add(new Person("Jens2"));
